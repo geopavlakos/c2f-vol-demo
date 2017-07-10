@@ -3,6 +3,8 @@
 
 This is the demo code for the paper **Coarse-to-Fine Volumetric Prediction for Single-Image 3D Human Pose**. Please follow the links to read the [paper](https://arxiv.org/abs/1611.07828) and visit the corresponding [project page](https://www.seas.upenn.edu/~pavlakos/projects/volumetric).
 
+For the training code please visit this [repository](https://github.com/geopavlakos/c2f-vol-train).
+
 We provide code to test our model on [Human3.6M](http://vision.imar.ro/human3.6m/description.php). Please follow the instructions below to setup and use our code. The typical procedure is 1) apply the ConvNet model using a torch script through command line and then 2) run a MATLAB script (from folder ```matlab```) for visualization or evaluation. To run this code, make sure the following are installed:
 
 - MATLAB
